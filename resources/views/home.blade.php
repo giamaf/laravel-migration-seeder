@@ -23,16 +23,16 @@
                     </div>
                     @if ($train['deleted'])
                         <h6 class="text-danger">
-                            Treno cancellato
+                            Deleted
                         </h6>
                     @else
                         @if ($train['on_time'])
                             <p class="text-warning">
-                                In ritardo
+                                Delay
                             </p>
                         @else
                             <p class="text-success">
-                                In orario
+                                On time
                             </p>
                         @endif
                     @endif
